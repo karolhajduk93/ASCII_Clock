@@ -5,7 +5,7 @@ public class Digit {
 
    public Digit(){
 
-       for (int i = 0; i < 11; i++){
+       for (int i = -1; i < 11; i++){
            digits.put(i, new Character[9]);
        }
 
@@ -60,9 +60,9 @@ public class Digit {
        digits.get(9)[6] = ' '; digits.get(9)[7] = '_'; digits.get(9)[8] = '|';
 
        // :
-       digits.get(10)[0] = ' '; digits.get(10)[1] = ' '; digits.get(10)[2] = ' ';
-       digits.get(10)[3] = ' '; digits.get(10)[4] = '.'; digits.get(10)[5] = ' ';
-       digits.get(10)[6] = ' '; digits.get(10)[7] = '.'; digits.get(10)[8] = ' ';
+       digits.get(-1)[0] = ' '; digits.get(-1)[1] = ' '; digits.get(-1)[2] = ' ';
+       digits.get(-1)[3] = ' '; digits.get(-1)[4] = '.'; digits.get(-1)[5] = ' ';
+       digits.get(-1)[6] = ' '; digits.get(-1)[7] = '.'; digits.get(-1)[8] = ' ';
 
 
 
